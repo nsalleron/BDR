@@ -1,0 +1,22 @@
+Nom et type des paramètres des méthodes GetConnection :
+
+-> static Connection getConnection(String url)
+-> static Connection getConnection(String url, Properties info)
+-> static ConnectiongetConnection(String url, String user, String password)
+
+D'après la documentation ces méthodes servent à : Attempts to establish a connection to the given database URL.
+
+A quoi sert la méthode next de l'interface ResultSet?
+
+-> D'après la documentation, cette méthode permet d'avancer le curseur d'un élement par rapport à sa position courante.
+
+A quoi sert la méthode setMaxRows de l'interface Statement?
+
+-> setMaxRows(int max) permet de définir un nombre limite de nuplet dans l'objet ResultSet. 
+
+Quelles sont les sous-inerfaces de l'interface Statement?
+
+-> Les sous-interfaces sont : CallableStatement, PreparedStatement
+-> La première permet l'appel de procédures stockés, la seconde permet d'exécuter une requête SQL précompilé.
+
+1 
