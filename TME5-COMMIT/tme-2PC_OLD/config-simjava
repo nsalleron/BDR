@@ -1,0 +1,8 @@
+
+echo configuration pour le tme 2PC
+
+export SIMJAVA_HOME=.
+
+export CLASSPATH=.:$SIMJAVA_HOME/jars/simjava.jar
+
+export PATH=$PATH:/usr/lib/jvm/jdk1.8.0_45/bin/

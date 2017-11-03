@@ -1,0 +1,16 @@
+
+echo configuration pour le tme 2PC
+
+export SIMJAVA_HOME=.
+
+export CLASSPATH=.:$SIMJAVA_HOME/jars/simjava.jar
+
+
+# pour appletviwer
+
+a=`which java`
+b=`readlink -f  $a`
+c=`dirname $b`
+export PATH:$PATH:$c
+
+
